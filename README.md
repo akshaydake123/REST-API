@@ -1,2 +1,2 @@
 # REST-API
-Application using Node.js
+Applications using Node.js

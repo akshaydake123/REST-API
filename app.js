@@ -152,7 +152,9 @@ app.post('/api/books',function(req,res){
 
 
 //  to show where to connect
-app.listen(3000);
+
+app.listen(process.env.PORT || 5000)
+//app.listen(3000);
 
 //to print on console
 console.log('Starting...');
